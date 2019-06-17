@@ -1,3 +1,12 @@
+<h1>Get to know Gatsby building blocks</h1>
+<a href="https://www.gatsbyjs.org/tutorial/part-one/">https://www.gatsbyjs.org/tutorial/part-one/</a>
+
+<a href="http://lopsided-snake.surge.sh/">http://lopsided-snake.surge.sh/</a>
+
+<h1></h1>
+<p>Everything below this is from <a href="https://github.com/gatsbyjs/gatsby-starter-hello-world">https://github.com/gatsbyjs/gatsby-starter-hello-world</a>
+<h1><h1>
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
