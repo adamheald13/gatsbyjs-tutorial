@@ -9,7 +9,7 @@ const buildingBlocksHome = () => (
     <Link to='/building-blocks/about'>About</Link>
     <h1>Hello Gatsby!</h1>
     <p>What a world.</p>
-    <img src="https://source.unsplash.com/random/400x200" alt=""/>
+    <img src="https://source.unsplash.com/random/400x200" alt="random"/>
   </div>
 )
 
