@@ -1,13 +1,13 @@
-import React from "react"
+import React from 'react'
 import { Link } from 'gatsby'
 
 export default () => (
-  <div style={{ color: `purple` }}>
-    <Link to='/contact'>Contact</Link>
-    <br/>
-    <Link to='/about'>About</Link>
-    <h1>Hello Gatsby!</h1>
-    <p>What a world.</p>
-    <img src="https://source.unsplash.com/random/400x200" alt=""/>
+  <div>
+    <h1>Gatsby Tutorial</h1>
+
+    <h2>
+      <span>1) </span>
+      <Link to='/building-blocks'>Building Blocks</Link>
+    </h2>
   </div>
 )
