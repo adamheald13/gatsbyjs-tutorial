@@ -1,11 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Header from '../../components/header'
+import Header from '../../components/building-blocks/header'
+import page from '../../components/page'
 
-export default () => (
+const contact = () => (
   <div style={{ color: `teal` }}>
-    <Link>Home</Link>
+    <Link to='/building-blocks'>Home</Link>
     <Header headerText='Contact' />
     <p>Send us a message!</p>
   </div>
 )
+
+export default () => page(contact)
