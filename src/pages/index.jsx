@@ -9,5 +9,10 @@ export default () => (
       <span>1) </span>
       <Link to='/building-blocks'>Building Blocks</Link>
     </h2>
+
+    <h2>
+      <span>2) </span>
+      <Link to='/styling'>Styling</Link>
+    </h2>
   </div>
 )
