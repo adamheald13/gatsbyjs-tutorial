@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import page from '../../components/page'
+import page from '../../components/shared/page'
 
 const stylingHome = () => (
   <div>

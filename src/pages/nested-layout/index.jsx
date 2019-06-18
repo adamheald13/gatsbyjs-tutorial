@@ -1,5 +1,5 @@
 import React from 'react'
-import page from '../../components/page'
+import page from '../../components/shared/page'
 
 const nestedLayoutHome = () => (
   <h1>Nested Layout</h1>

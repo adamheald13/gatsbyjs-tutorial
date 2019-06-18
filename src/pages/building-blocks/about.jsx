@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Header from '../../components/building-blocks/header'
-import page from '../../components/page'
+import page from '../../components/shared/page'
 
 const about = () => (
   <div style={{ color: `teal`}}>

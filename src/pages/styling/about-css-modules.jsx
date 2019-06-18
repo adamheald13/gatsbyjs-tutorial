@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './about-css-modules.module.css'
 import Container from '../../components/styling/container'
-import page from '../../components/page'
+import page from '../../components/shared/page'
 
 const User = props => (
   <div className={styles.user}>
