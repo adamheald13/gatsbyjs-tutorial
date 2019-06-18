@@ -3,7 +3,13 @@ import { Link } from 'gatsby'
 
 export default () => (
   <div>
-    <h1>Gatsby Tutorial</h1>
+    <h1>Gatsby Tutorial Home</h1>
+    <h2>By Adam Heald</h2>
+    <p>
+      <a href="adamheald.com">adamheald.com</a>
+      <br/>
+      <a href="mailto:adamheald13@gmail.com">adamheald13@gmail.com</a>
+    </p>
 
     <h2>
       <span>1) </span>
