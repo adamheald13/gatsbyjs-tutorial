@@ -14,5 +14,10 @@ export default () => (
       <span>2) </span>
       <Link to='/styling'>Styling</Link>
     </h2>
+
+    <h2>
+      <span>3) </span>
+      <Link to='/nested-layout'>Nested Layout</Link>
+    </h2>
   </div>
 )
