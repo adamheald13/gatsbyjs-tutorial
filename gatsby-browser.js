@@ -1,0 +1,1 @@
+import './src/pages/styling/styles/global.css'
