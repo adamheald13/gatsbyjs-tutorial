@@ -6,7 +6,7 @@ export default () => (
     <h1>Gatsby Tutorial Home</h1>
     <h2>By Adam Heald</h2>
     <p>
-      <a href="adamheald.com">adamheald.com</a>
+      <a href="http://adamheald.com">adamheald.com</a>
       <br/>
       <a href="mailto:adamheald13@gmail.com">adamheald13@gmail.com</a>
     </p>
