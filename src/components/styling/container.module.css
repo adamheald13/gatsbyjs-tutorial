@@ -2,3 +2,8 @@
   margin: 3rem auto;
   max-width: 600px;
 }
+
+.footer a {
+  position: absolute;
+  bottom: 30px;
+}

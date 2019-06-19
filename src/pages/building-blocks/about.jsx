@@ -1,15 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Header from '../../components/building-blocks/header'
-import page from '../../components/shared/page'
+import Container from '../../components/styling/container'
 
-const about = () => (
-  <div style={{ color: `teal`}}>
+export default () => (
+  <Container>
     <Link to='/building-blocks'>Home</Link>
     <Header headerText='About Gatsby'/>
     <Header headerText="It's pretty cool" />
     <p>Such wow. Very React.</p>
-  </div>
+  </Container>
 )
-
-export default () => page(about);

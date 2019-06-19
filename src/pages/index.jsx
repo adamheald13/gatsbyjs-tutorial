@@ -1,15 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Container from '../components/styling/container'
 
 export default () => (
-  <div>
-    <h1>Gatsby Tutorial Home</h1>
-    <h2>By Adam Heald</h2>
-    <p>
-      <a href="http://adamheald.com">adamheald.com</a>
-      <br/>
-      <a href="mailto:adamheald13@gmail.com">adamheald13@gmail.com</a>
-    </p>
+  <Container>
+    <h1>Gatsby Tutorial</h1>
 
     <h2>
       <span>1) </span>
@@ -25,5 +20,5 @@ export default () => (
       <span>3) </span>
       <Link to='/nested-layout'>Nested Layout</Link>
     </h2>
-  </div>
+  </Container>
 )

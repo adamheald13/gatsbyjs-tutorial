@@ -1,13 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import page from '../../components/shared/page'
+import Container from '../../components/styling/container'
 
-const stylingHome = () => (
-  <div>
-    <h1>Styling</h1>
+export default () => (
+  <Container>
     <Link to='/styling/about-css-modules'>About CSS Modules</Link>
     <br/>
-  </div>
+  </Container>
 )
-
-export default () => page(stylingHome)
