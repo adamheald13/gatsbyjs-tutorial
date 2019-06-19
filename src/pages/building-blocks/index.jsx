@@ -1,16 +1,14 @@
 import React from "react"
 import { Link } from 'gatsby'
-import page from '../../components/page'
+import Container from '../../components/shared/container'
 
-const buildingBlocksHome = () => (
-  <div style={{ color: `purple` }}>
+export default () => (
+  <Container>
     <Link to='/building-blocks/contact'>Contact</Link>
     <br/>
     <Link to='/building-blocks/about'>About</Link>
     <h1>Hello Gatsby!</h1>
     <p>What a world.</p>
     <img src="https://source.unsplash.com/random/400x200" alt="random"/>
-  </div>
+  </Container>
 )
-
-export default () => page(buildingBlocksHome)

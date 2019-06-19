@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './about-css-modules.module.css'
-import Container from '../../components/styling/container'
-import page from '../../components/page'
+import Container from '../../components/shared/container'
 
 const User = props => (
   <div className={styles.user}>
@@ -13,7 +12,7 @@ const User = props => (
   </div>
 )
 
-const aboutCssModules = () => (
+export default () => (
   <Container>
     <h1>About CSS Modules</h1>
     <p>CSS Modules are cool</p>
@@ -29,5 +28,3 @@ const aboutCssModules = () => (
     />
   </Container>
 )
-
-export default () => page(aboutCssModules)

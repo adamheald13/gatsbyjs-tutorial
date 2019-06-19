@@ -1,14 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Header from '../../components/building-blocks/header'
-import page from '../../components/page'
+import Container from '../../components/shared/container'
 
-const contact = () => (
-  <div style={{ color: `teal` }}>
+export default () => (
+  <Container>
     <Link to='/building-blocks'>Home</Link>
     <Header headerText='Contact' />
     <p>Send us a message!</p>
-  </div>
+  </Container>
 )
-
-export default () => page(contact)
