@@ -1,8 +1,7 @@
 import React from 'react'
 import Layout from '../../components/nested-layout/layout'
-import page from '../../components/shared/page'
 
-const nestedContact = () => (
+export default () => (
   <Layout>
     <h1>I'd love to talk! Email me aat the address below</h1>
     <p>
@@ -10,5 +9,3 @@ const nestedContact = () => (
     </p>
   </Layout>
 )
-
-export default () => page(nestedContact)

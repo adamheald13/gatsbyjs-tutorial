@@ -1,8 +1,7 @@
 import React from 'react'
 import Layout from '../../components/nested-layout/layout'
-import page from '../../components/shared/page'
 
-const nestedLayoutHome = () => (
+export default () => (
   <Layout>
     <h1>Hi! I'm building a fake Gatsby site as part of a tutorial!</h1>
     <p>
@@ -10,5 +9,3 @@ const nestedLayoutHome = () => (
     </p>
   </Layout>
 )
-
-export default () => page(nestedLayoutHome)
