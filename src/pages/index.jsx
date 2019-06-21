@@ -20,5 +20,10 @@ export default () => (
       <span>3) </span>
       <Link to='/nested-layout'>Nested Layout</Link>
     </h2>
+
+    <h2>
+      <span>4) </span>
+      <Link to ='/data'>Data</Link>
+    </h2>
   </Container>
 )
