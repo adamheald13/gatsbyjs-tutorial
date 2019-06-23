@@ -25,5 +25,10 @@ export default () => (
       <span>4) </span>
       <Link to ='/data'>Data</Link>
     </h2>
+
+    <h2>
+      <span>5) </span>
+      <Link to ='/source-plugins'>Source Plugins</Link>
+    </h2>
   </Container>
 )
