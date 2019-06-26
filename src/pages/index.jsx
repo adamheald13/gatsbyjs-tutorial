@@ -35,5 +35,10 @@ export default () => (
       <span>6) </span>
       <Link to ='/transformer-plugins'>Transformer Plugins</Link>
     </h2>
+
+    <h2>
+      <span>7) </span>
+      <Link to ='/pages-from-data'>Pages from Data</Link>
+    </h2>
   </Container>
 )
